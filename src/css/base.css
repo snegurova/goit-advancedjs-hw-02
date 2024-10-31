@@ -30,3 +30,24 @@ main {
 main:has(.back-link) {
   text-align: center;
 }
+
+button {
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 8px;
+  padding: 12px 32px;
+  color: #fff;
+  background-color: #569ff7;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  border: none;
+  cursor: pointer;
+}
+
+button:hover,
+button:focus {
+  background-color: #8bbbf9;
+}
+button:disabled {
+  background-color: #d9d9d9;
+  cursor: not-allowed;
+}
